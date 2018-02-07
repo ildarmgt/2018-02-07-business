@@ -1,5 +1,22 @@
+@font-face {
+  font-family: MyFont;
+  src: url("../fonts/Ubuntu-Light.ttf"); }
 .navbar {
   background-color: slategrey;
   overflow: hidden; }
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: MyFont; }
+
+.navbar a:hover {
+  background-color: lightgrey;
+  color: black; }
 
 /*# sourceMappingURL=main.css.map */
