@@ -1,0 +1,12 @@
+about.erb	_about.scss	info/gallery 				- ildar
+
+index.erb 	_index.scss	landing page				- ildar
+
+contact.erb	_contacts.scss	emails / email form page		- andrew
+
+login.erb	_login.scss	internal resources password wall	- brandon
+profile.erb	_profile.scss	internal resources bulletin		- brandon
+app.rb				variables and routing			- brandon
+
+layout.erb	_navbar.scss	navigation bar and main layout		- brandon
+
