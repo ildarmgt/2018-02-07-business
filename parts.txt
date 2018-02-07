@@ -1,6 +1,6 @@
 about.erb	_about.scss	info/gallery 				- ildar
-
 index.erb 	_index.scss	landing page				- ildar
+.gitignore			temporary disable .css push		- ildar
 
 contact.erb	_contacts.scss	emails / email form page		- andrew
 
