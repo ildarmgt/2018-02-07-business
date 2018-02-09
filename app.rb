@@ -13,6 +13,15 @@ get '/contact' do
 end
 
 get '/login' do
+    if params[:mysername] == 'oggi'
+        redirect '/profile'
+    else
+        erb :login
+    end
+    erb :login
+end
+
+get '/login' do
     if params[:mypassword] == '1234'
         redirect '/profile'
     else
