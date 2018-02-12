@@ -1,6 +1,6 @@
-* {
+// * {
   // border: 1px red solid;
-}
+// }
 
 .main-splash {
   height: 92vh;
@@ -49,6 +49,9 @@
   text-align: center;
   color: lightgray;
   text-shadow: 0.15vw 0.15vw 0.15vw black;
+
+  user-select: none;
+  cursor: arrow;
   // opacity: 0.9;
 }
 
@@ -72,6 +75,9 @@
   font-size: 4.5vh;
   text-align: left;
   opacity: 0.9;
+
+  user-select: none;
+  cursor: arrow;
 }
 
 .main-quote-line2 {
@@ -84,6 +90,9 @@
   margin-left: 5vw;
   text-align: left;
   opacity: 0.9;
+
+  user-select: none;
+  cursor: arrow;
 }
 
 .main-c {
