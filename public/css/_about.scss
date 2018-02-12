@@ -1,8 +1,10 @@
 .about-text {
   font-size: 3vh;
   margin: 3% 10%;
+  margin-top: 5vh;
   font-family: MyFont;
   text-align: center;
+  color: grayslate;
 }
 
 .about-topic {
@@ -47,12 +49,15 @@
   background-color: white;
   color: black;
   margin-top: 3vh;
+  font-size: 2.7vh;
 }
 
 .about-topic1 .about-topic-picside {
   display: inline-block;
   width: 40vw;
   height: 30vw;
+  max-width: 40vh;
+  max-height: 30vh;
   background-image: url('../img/girl.jpg');
   background-size: cover;
 }
@@ -61,6 +66,8 @@
   display: inline-block;
   width: 40vw;
   height: 30vw;
+  max-width: 40vh;
+  max-height: 30vh;
   background-image: url('../img/vials.jpg');
   background-size: cover;
 }
@@ -69,6 +76,8 @@
   display: inline-block;
   width: 40vw;
   height: 30vw;
+  max-width: 40vh;
+  max-height: 30vh;
   background-image: url('../img/sat1.jpg');
   background-size: cover;
 }
@@ -77,6 +86,8 @@
   display: inline-block;
   width: 40vw;
   height: 30vw;
+  max-width: 40vh;
+  max-height: 30vh;
   background-image: url('../img/brain.jpg');
   background-size: cover;
   background-position: center;
