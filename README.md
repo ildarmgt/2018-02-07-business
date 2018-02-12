@@ -13,6 +13,7 @@ to run, need ruby and sass
 * if you want email service on server to work, add api env variable like this:
 
   `echo "export SENDGRID_API_KEY='YOUR_API_KEY'" > sendgrid.env`
+  
   `source ./sendgrid.env`
 
 * in project root directory run server:
