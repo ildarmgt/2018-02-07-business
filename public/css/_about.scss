@@ -1,0 +1,83 @@
+.about-text {
+  font-size: 3vh;
+  margin: 3% 10%;
+  font-family: MyFont;
+  text-align: center;
+}
+
+.about-topic {
+  font-family: MyFont;
+  color: lightgray;
+  // height: 40vh;
+  display: block;
+  padding: 0;
+  margin-top: 5vh;
+}
+
+.about-topic1, .about-topic3 {
+  text-align: right;
+  margin-right: 1vh;
+  font-family: MyFont;
+  font-size: 3.5vh;
+}
+
+.about-topic2, .about-topic4 {
+  text-align: left;
+  margin-left: 1vh;
+  font-family: MyFont;
+  font-size: 3.5vh;
+}
+
+.about-topic-textside {
+  display: inline-block;
+  width: 40vw;
+  vertical-align: top;
+  // height: 100%;
+}
+
+.about-topic-textside-title {
+  // background-color: rgb(61, 78, 95);
+  background-color: rgb(41, 49, 49);
+  color: white;
+  padding-right: 1vh;
+  padding-left: 1vh;
+}
+
+.about-topic-textside-text {
+  background-color: white;
+  color: black;
+  margin-top: 3vh;
+}
+
+.about-topic1 .about-topic-picside {
+  display: inline-block;
+  width: 40vw;
+  height: 30vw;
+  background-image: url('../img/girl.jpg');
+  background-size: cover;
+}
+
+.about-topic2 .about-topic-picside {
+  display: inline-block;
+  width: 40vw;
+  height: 30vw;
+  background-image: url('../img/vials.jpg');
+  background-size: cover;
+}
+
+.about-topic3 .about-topic-picside {
+  display: inline-block;
+  width: 40vw;
+  height: 30vw;
+  background-image: url('../img/sat1.jpg');
+  background-size: cover;
+}
+
+.about-topic4 .about-topic-picside {
+  display: inline-block;
+  width: 40vw;
+  height: 30vw;
+  background-image: url('../img/brain.jpg');
+  background-size: cover;
+  background-position: center;
+}
