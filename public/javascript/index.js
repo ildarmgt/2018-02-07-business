@@ -173,7 +173,7 @@ function refreshCanvas () {
   // console.log(' ');
 }
 
-function drawDot (inX, inY, inR = 2) {
+function drawDot (inX, inY, inR = 2, inStrength = 1) {
   // round them for accuracy
   let goodX = Math.floor(inX);
   let goodY = Math.floor(inY);
@@ -184,18 +184,18 @@ function drawDot (inX, inY, inR = 2) {
 
   C2D.beginPath();
   C2D.arc(goodX, goodY, goodR, 0, 2 * Math.PI);
-  C2D.fillStyle = 'rgba(255, 255, 255, 0.2)';
+  C2D.fillStyle = 'rgba(255, 255, 255, ' + String(inStrength) + ')';
   C2D.fill();
 }
 
-function drawLine (inX1, inY1, inX2, inY2, inW = 2, inStrength) {
+function drawLine (inX1, inY1, inX2, inY2, inW = 2, inStrength = 1) {
   // round them for accuracy
   let goodX1 = Math.floor(inX1);
   let goodY1 = Math.floor(inY1);
   let goodX2 = Math.floor(inX2);
   let goodY2 = Math.floor(inY2);
   let goodW = Math.floor(inW);
-  let goodS = inStrength * 0.5;
+  let goodS = inStrength * 0.5; // reduce opacity by 1/2
 
   C2D.beginPath();
   C2D.strokeStyle = 'rgba(255, 255, 255, ' + String(goodS) + ')';
@@ -204,8 +204,8 @@ function drawLine (inX1, inY1, inX2, inY2, inW = 2, inStrength) {
   C2D.lineTo(goodX2, goodY2);
   C2D.stroke();
 
-  drawDot(goodX1, goodY1, goodW * 2);
-  drawDot(goodX2, goodY2, goodW * 2);
+  drawDot(goodX1, goodY1, goodW * 2, goodS);
+  drawDot(goodX2, goodY2, goodW * 2, goodS);
   // console.log(' drawing line ' + goodX1 + ',' + goodY1 + '-' + goodX2 + ',' + goodY2);
 }
 
