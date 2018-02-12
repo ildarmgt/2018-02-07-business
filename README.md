@@ -10,7 +10,7 @@ to run, need ruby and sass
 
   `bundle install`
 
-* if you want email service on server to work, add api env variable like this:
+* if you want email service on server to work, you will need SendGrid API key, and then add api env variable, for example like this:
 
   `echo "export SENDGRID_API_KEY='YOUR_API_KEY'" > sendgrid.env`
   
