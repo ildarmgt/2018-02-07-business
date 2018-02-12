@@ -1,3 +1,5 @@
 public/css/main.css
 public/css/.sass-cache/
-public/css/main.css.map
+public/css/main.css.mapsendgrid.env
+Gemfile.lock
+sendgrid.env
