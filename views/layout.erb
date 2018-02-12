@@ -4,7 +4,15 @@
 
 <body>
 
-    <header class="dark">
+<div class="navbar">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+            <a href="/profile">Profile*</a> 
+            <a href="/login">Login</a>
+    </div>
+
+  <!--   <header class="dark">
   <nav role="navigation">
     <a href="javascript:void(0);" class="ic menu">
       <span class="line"></span>
@@ -14,29 +22,30 @@
     <a href="javascript:void(0);" class="ic close"></a>
     <ul class="main-nav">
       <li class="top-level-link">
-        <a><span>Home</span></a>      
+        <a href="/"><span>Home</span></a>      
       </li> 
       
       <li class="top-level-link">
-        <a><span>About</span></a>      
+        <a href="/about"><span>About</span></a>      
       </li> 
       
       <li class="top-level-link">
-        <a><span>Contact<span></a>    
+        <a href="/contact"><span>Contact<span></a>    
       </li>
           
       <li class="top-level-link">
-        <a><span>Profile*<span></a>    
+        <a href="/profile"><span>Profile*<span></a>    
       </li>
       
       <li class="top-level-link">
-        <a><span>Login</span></a>      
+        <a href="/login"><span>Login</span></a>      
       </li>
     </ul> 
-  </nav>
+  </nav> -->
 
     <div class='main'>
         <%= yield %>
     </div>
 
 </body>
+
