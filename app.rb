@@ -13,7 +13,7 @@ get '/contact' do
 end
 
 get '/login' do
-    if params[:mysername] == 'oggi'
+    if params[:mysername] == 'jeremy'
         redirect '/profile'
     else
         erb :login
