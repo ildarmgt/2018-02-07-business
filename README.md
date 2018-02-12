@@ -20,6 +20,6 @@ to run, need ruby and sass
   
   `ruby app.rb`
   
-* browse to (default) `http://localhost:4567/`in crhome/firefox
+* browse to (default) `http://localhost:4567/`in chrome/firefox
  
 * logon is `jeremy` / `1234`
