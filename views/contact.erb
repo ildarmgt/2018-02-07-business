@@ -33,7 +33,7 @@
   </div>
 
   <div class="contacts-email">
-    <form>
+    <form method="get" action="/email">
       <div class="contacts-email-title">
           To contact via email, please fill out the following:
       </div>
@@ -42,25 +42,28 @@
       <div class="contacts-email-top">
         <div class="contacts-email-top-left">
           <div class="contacts-email-top-all-text">
-            Full Name:
+            Full name:
           </div>
-          <input type="text" class="contacts-email-top-txtName">          
+          <input type="text" class="contacts-email-top-txtName" name="sender_name">          
         </div>
 
         <div class="contacts-email-top-middle">
           <div class="contacts-email-top-all-text">
-            Return email:
+            Your email:
           </div>
-          <input type="text" class="contacts-email-top-txtEmail">
+          <input type="text" class="contacts-email-top-txtEmail" name="return_email">
         </div>
 
         <div class="contacts-email-top-right">
-          <input type="submit" value="Send" class="contacts-email-top-send">          
+          <input type="submit" value="Send" class="contacts-email-top-send" name="email_body">          
         </div>
       </div>
 
-      <textarea class="contacts-email-textarea"></textarea>
+      <textarea class="contacts-email-textarea" placeholder="Please describe how we can help you"></textarea>
 
+      <div class="contacts-email-result">
+        <%= "#{@email_result.to_s}" %>
+      </div>
     </form>
   </div>
 </div>

@@ -116,6 +116,21 @@
   height: 20vh;
 }
 
+.contacts-email-textarea::-webkit-input-placeholder {
+  text-align: center;
+  line-height: 5vh;
+}
+
+.contacts-email-textarea:-moz-placeholder { /* Firefox 18- */
+  text-align: center;
+  line-height: 5vh;  
+}
+
+.contacts-email-textarea::-moz-placeholder {  /* Firefox 19+ */
+  text-align: center;
+  line-height: 5vh; 
+}
+
 .contacts-email-top-send {
   font-family: MyFont;
   border: none;
@@ -135,4 +150,12 @@
 
 .contacts-email-top-send:active {
   transform: translateY(2px);
+}
+
+.contacts-email-result {
+  font-family: MyFont;
+  font-size: 2vh;
+  color: black;
+  margin: 1vh;
+  text-align: center;
 }
