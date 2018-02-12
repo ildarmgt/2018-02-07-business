@@ -1,0 +1,138 @@
+.contacts-offices {
+  margin-top: 5vh;
+  text-align: center;
+
+}
+
+.contacts-offices-all {
+  width: 40vh;
+  display: inline-block;
+  position: relative;
+  margin: 1vh;
+}
+
+.contacts-offices-all-title {
+  font-family: MyFont;
+  background-color: rgb(41, 49, 49);
+  color: white;
+  // height: 40vh;
+  display: block;
+  padding: 0;
+  font-size: 2.5vh;
+  // font-weight: bold;
+  margin-bottom: 1vh;
+}
+
+
+.contacts-offices-all-address {
+  font-family: MyFont;
+  color: black;
+  display: block;
+  font-size: 2vh;
+  line-height: 3vh;
+}
+
+.contacts-offices-all-phone {
+  font-family: MyFont;
+  color: black;
+  display: block;
+  font-size: 2vh;
+  margin-top: 1vh;
+}
+
+.contacts-offices-all-phone b {
+  margin-right: 1vh;
+}
+.contacts-email {
+  margin-top: 3vh;
+  text-align: center;
+}
+
+.contacts-email-title {
+  font-family: MyFont;
+  font-size: 2vh;
+  margin: 1vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  text-align: center;
+  user-select: none;
+  cursor: arrow;
+}
+
+.contacts-email-top {
+  text-align: center;
+  margin: 0 10%;
+  vertical-align: top;
+}
+
+.contacts-email-top-left, .contacts-email-top-middle {
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  width: 40%;
+  margin-left: 2%;
+  vertical-align: top;
+}
+
+.contacts-email-top-right {
+  // width: 10%;
+  padding: 0 1vh;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  line-height: 6vh;
+  margin: 1vh 0 1vh 1vh;
+}
+
+.contacts-email-top-all-text {
+  font-family: MyFont;
+  font-size: 2vh;
+  color: black;
+  user-select: none;
+  cursor: arrow;
+}
+
+.contacts-email-top-txtName, .contacts-email-top-txtEmail {
+  font-family: MyFont;
+  border: none;
+  border-bottom: 0.1vh solid black;
+  font-size: 2.5vh;
+  outline-width: 0;
+  width: 80%;
+  text-align: center;
+}
+
+.contacts-email-textarea {
+  font-family: MyFont;
+  font-size: 2vh;
+  line-height: 3vh;
+  outline-width: 0;
+  text-align: justify;
+  border: 0.1vh solid black;
+
+  margin: 0;
+  margin-top: 2vh;
+  width: 80%;
+  height: 20vh;
+}
+
+.contacts-email-top-send {
+  font-family: MyFont;
+  border: none;
+  display: inline-block;
+  font-size: 2vh;
+  user-select: none;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: bottom;
+  // height: 4vh;
+  line-height: 4vh;
+  padding: 0 1vh;
+  background-color: rgb(41, 49, 49);
+  color: white;
+  outline-width: 0;
+}
+
+.contacts-email-top-send:active {
+  transform: translateY(2px);
+}
