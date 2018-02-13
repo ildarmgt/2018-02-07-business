@@ -16,11 +16,10 @@ end
 
 get '/login' do
     if (params[:myusername] == 'jeremy') && (params[:mypassword] == '1234')
-        redirect '/profile'
+        erb :profile
     else
         erb :login
     end
-    erb :login
 end
 
 get '/profile' do
