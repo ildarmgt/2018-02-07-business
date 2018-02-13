@@ -2,7 +2,6 @@ body{
     margin: 0 auto;
 }
 
-// Here is the original navbar CSS.
 
 .navbar {
     background-color: slategrey;
@@ -28,76 +27,4 @@ body{
     background-color: lightgrey;
     color: black;
  }
-
- // Below is the newer navbar I've worked on with the "sandwich icon".
-
-// nav { position: relative;  }
-// header.dark nav { background-color: slategrey; }
-// // header.light nav { background-color:rgba(0,0,0,0.5); }
-
-// ul.main-nav { 
-//   list-style-type: none; 
-//   padding: 0px;
-//   font-size: 0px;
-//   max-width: 1000px;
-//   margin: 0 auto;
-// }
-
-// ul.main-nav > li { 
-//   display: inline-block;
-//   padding: 0; 
-// }
-
-// ul.main-nav > li > a { 
-//   display: block; 
-//   padding: 20px 30px; 
-//   position: relative;
-//   color: #fff;
-//   font-size: 16px;
-//   font-family: MyFont;
-//   font-weight: 400;
-//   box-sizing: border-box;
-// }
-
-// ul.main-nav > li:hover { background-color: #f9f9f9; }
-// ul.main-nav > li:hover > a { color: #333; font-weight: 400; }
-
-// ul.main-nav > li ul.sub-menu-lists {
-//   margin: 0px;
-//   padding: 0px;
-//   list-style-type : none;
-//   display:block;
-// }
-
-// ul.main-nav > li ul.sub-menu-lists > li {
-//   padding: 2px 0;
-// }
-
-// ul.main-nav > li ul.sub-menu-lists > li > a {
-//   font-size: 14px;
-// }
-
-// .ic {
-//   position: fixed; 
-//   cursor: pointer;
-//   display: inline-block;
-//   right: 25px;
-//   width: 32px;
-//   height: 24px;
-//   text-align: center;
-//   top:0px;
-//   outline: none;
-// }
-
-// .ic.close { 
-//   opacity: 0; 
-//   font-size: 0px; 
-//   font-weight: 300; 
-//   color: #fff;
-//   top:8px;
-//   height:40px;
-//   display: block;
-//   outline: none;
-// }
-
 
