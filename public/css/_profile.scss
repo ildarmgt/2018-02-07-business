@@ -2,6 +2,13 @@
 ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
 
+.main-profile {
+  height: 90vh;
+  background-image: url('../img/dna.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
 .month {
     padding: 70px 25px;
     width: 100%;
@@ -66,6 +73,15 @@ body {font-family: Verdana, sans-serif;}
     color: white !important
 }
 
+.tasks{
+    width: 80vw;
+    height: 10vh;
+    border: 2px black;
+    background-color: lightgrey;
+    margin: 1vw;
+
+}
+
 @media screen and (max-width:720px) {
     .weekdays li, .days li {width: 13.1%;}
 }
@@ -79,11 +95,3 @@ body {font-family: Verdana, sans-serif;}
     .weekdays li, .days li {width: 12.2%;}
 }
 
-.tasks{
-	width: 80vw;
-	height: 10vh;
-	border: 2px black;
-	background-color: lightgrey;
-	margin: 1vw;
-
-}
