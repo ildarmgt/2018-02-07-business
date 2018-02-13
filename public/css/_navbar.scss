@@ -159,35 +159,3 @@ body{
   
 //   /*
   
-//   .ic.menu:focus ~ .ic.close { opacity: 1.0; z-index : 21;  }
-//   .ic.close:focus { opacity: 0; }
-//   */
-//   .ic.menu:focus { opacity: 1;  }
-  
-
-//   nav { background-color: transparent; }
-  
-//  /* Main Menu for Handheld Devices  */
-//   ul.main-nav {
-//     z-index:2; 
-//     padding: 50px 0;
-//     position: fixed;
-//     right: 0px;
-//     top: 0px;
-//     width: 0px;
-//     background-color:rgba(0,0,0,1);
-//     height: 100%;
-//     overflow: auto;
-//     /*CSS animation applied : Slide from Right*/
-//    -webkit-transition-property: background, width;
-//     -moz-transition-property: background, width;
-//     -o-transition-property: background, width;
-//     transition-property: background, width;
-//     -webkit-transition-duration: 0.6s;
-//       -moz-transition-duration: 0.6s;
-//       -o-transition-duration: 0.6s;
-//     transition-duration: 0.6s;
-//   }
-  
-//   .ic.menu:focus ~ .main-nav { width: 300px; background-color:rgba(0,0,0,1); }
-  
