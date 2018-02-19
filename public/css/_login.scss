@@ -11,14 +11,18 @@
   background-image: url('../img/dna.jpg');
   background-size: cover;
   background-position: center;
+	font-family: MyFont;
+	font-size: 3vh;
 }
 
 .login h1 {
 	text-align: center;
+	text-shadow: 0.15vw 0.15vw 0.15vw black;
 }
 
 .credentials h3 {
 	text-align: center;
+	text-shadow: 0.15vw 0.15vw 0.15vw black;
 }
 
 .username {
@@ -31,4 +35,8 @@
 
 .submit {
 	text-align: center;
+}
+
+input {
+	font-size: 3vh;
 }
