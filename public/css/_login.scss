@@ -2,7 +2,7 @@
 	// margin: 0 auto;
 	padding: 1vh 40vw;
 	font-family: MyFont;
-	background-color: lightgrey;
+	// background-color: lightgrey;
 	color: white;
 }
 
@@ -11,4 +11,24 @@
   background-image: url('../img/dna.jpg');
   background-size: cover;
   background-position: center;
+}
+
+.login h1 {
+	text-align: center;
+}
+
+.credentials h3 {
+	text-align: center;
+}
+
+.username {
+	text-align: center;
+}
+
+.lastname {
+	text-align: center;
+}
+
+.submit {
+	text-align: center;
 }
