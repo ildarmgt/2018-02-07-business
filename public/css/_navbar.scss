@@ -2,6 +2,10 @@ body{
     margin: 0 auto;
 }
 
+* {
+  border: 1px red solid;
+}
+
 
 .navbar {
     // background-color: slategrey;
@@ -10,11 +14,13 @@ body{
     position: sticky;
     top: 0;
     z-index: 100;
+    white-space: nowrap;
+    
  }
 
  .navbar a {
-    float: left;
-    display: block;
+    // float: left;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 2vh 5vh;
